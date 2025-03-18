@@ -1,5 +1,5 @@
-#!name=Locket Gold Hoang Nam
-#!desc=By: Hoang Nam 005
+#!name=Locket Gold Của HoangNam 
+#!desc=By: HoangNam 05
 
 [Script]
 revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/caovannam2ka5/LocketGoldd/refs/heads/main/filengay, requires-body=true, max-size=-1, timeout=60
